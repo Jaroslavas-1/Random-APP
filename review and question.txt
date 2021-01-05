@@ -1,0 +1,26 @@
+Build react appication
+
+1. Page "Bitcoin Conversion Rates"
+
+Which tasks has been completed:
+ - page is created from scratch without using create-react-app.
+ - application configured with babel and webpack.
+ - configured webpack dev server to launck application localy.
+ - added .css styling:
+	- font style Montserrat,
+	- icons from react icons,
+	- application logo - created with Adobe Illustrator,
+	- colors: default bootstrap navbar and table row colors, bitcoin logo color used for table head.
+ - page gets data from coindesk API using axios.
+ - page has loading indicator before data is retrieved from API for the first time.
+ - above table page displays when data was last time updated alos loading indicator shows when data is being refreshed.
+ - auto data refresh every 10 seconds. 
+ - implemented sorting for Currency column.
+ - error page is being displayed, when API returns an error.
+
+What is working not properly?
+ - when user clicks on sorting column, data is being retrieved from API again and auto-refresh timer is being reset. Solution: timer should not reset after click on sorting column. After learning more about react hooks and main react principles I will be able to fix this bug.
+
+2. Page to display extract specific insights about the webpage or a simple XML file.
+ Question: should this page get the HTML code of the entered site and parse it, or should data be retrieved from API in JSON or XML format?
+	If page should get the HTML code and parse it, maybe you could provide some resources or give some information how to implement this funcionality, or where to start reading about this?

@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(../src/fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+  font-family: "Montserrat", serif;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.float-right {
+  float: right;
+}
+
+.sort-column:hover {
+  cursor: pointer;
+}
+
+.sort-column-head {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.error-image {
+  display: block;
+  margin: 20px auto;
+  width: 20%;
+}
+
+.error-page-block {
+  text-align: center;
+}
+
+.table-head {
+  background-color: #f7931a;
+  color: #fff;
+}
+
+.bitcoin-price-page .table-bordered,
+.bitcoin-price-page .table td,
+.bitcoin-price-page .table th,
+.bitcoin-price-page .table-bordered td,
+.bitcoin-price-page .table-bordered th {
+  border: 0px;
+}
+
+.bitcoin-price-page .table td,
+.bitcoin-price-page .table th {
+  padding: 2rem 1rem;
+}
+
+.page-head-text {
+  margin: 5rem 0rem;
+  text-align: center;
+}
+
+.bitcoin-icon {
+  color:  #f7931a;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.padding-20-desk-10-mob {
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.m-top-15 {
+  margin-top: 15px;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  .bitcoin-price-page .table td,
+  .bitcoin-price-page .table th {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .padding-20-desk-10-mob {
+    padding: 10px;
+  }
+}
