@@ -1,5 +1,12 @@
 Build react appication
 
+How to start localy?
+
+1. Download code.
+2. Add it to your IDE (VS Code or Atom recommended).
+3. Run "npm i" in terminal, to download node modules.
+4. Run "npm start" tp start server on http://localhost:8080.
+
 1. Page "Bitcoin Conversion Rates"
 
 Which tasks has been completed:
